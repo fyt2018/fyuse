@@ -1,0 +1,86 @@
+
+	<!DOCTYPE html>	
+	<html lang="en" >
+	<head>	
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>quxun12.7</title>	
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name='apple-itunes-app' content='app-id=1232473082'>
+		<meta name = "format-detection" content = "telephone=no">  
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+		<link rel="stylesheet"  href="css/main.css" type="text/css" media="screen">
+	</head>
+<body class="vert">
+
+	
+		<!--3DSHOWS-->		
+		<!--<div class="inner">					
+			<div id="quxun" class="quxun_container"></div>	
+		</div>-->
+
+		<div class="inner">					
+			<div id="quxun" class="quxun_container"></div>	
+		</div>
+
+
+	<!--<div id="wrap" class="fyuse-single-view">
+	
+		<div id="cnt">
+			<div class="inner">
+				<div id="vw">
+					<div id="fyu_api" class="fyu_container fyu_horizontal"></div>
+				</div>
+		
+			</div>
+		</div>
+		
+	</div>-->
+
+
+
+</body>
+<script type="text/javascript"  src="js/main.js" ></script>	
+<script type="text/javascript" src="js/jquery-3.1.0.min.js" ></script>
+<!--<script type="text/javascript" src="js/photodisplayshow.js" ></script>-->
+
+<script>
+//var uid = '26';
+//		FYU.add(uid, 'fyu_api', 
+//		{
+//			preload:1,
+//			nologo:1,
+//			zoom:1,		
+//			object:{
+//				"success":1,
+//				"uid":"26",
+//				"path":"http://quxun.oss-cn-qingdao.aliyuncs.com/qupai/source/H5/test/08ab294fee1c4840b261e3bb442657b2/",
+//				"fy":{"w":1280,"h":720,"cw":1920,"ch":1080,"m":1,"r":0,"fr":0,"cv":1,"dx":-0.0343743563,"dy":0.99940908,"t":1,"f":41,"l":[0,40],"so":4,"s":[[0,40,0]],"c":1,"p":2,"a":0,"g":1.05726874,"pw":640,"ph":360}}});
+
+
+	(function(w){	
+
+			var uid = '21';
+
+
+			let a = QX.add(uid,
+				'quxun',
+				{
+					zoom:1,
+					fullscreen:1,
+					preload:1,
+					object:{
+							"success":1,
+							"uid":uid,
+							"path":"http://192.168.1.199:5500/new/",
+							"quxun":{"w":720,"h":1280,"cv":1,"dx":-0.998325586,"dy":0.0578450114,"t":0,"f":111,"l":[0,110]}
+						}
+				});
+				console.log( a)
+
+	})(window);
+
+
+
+</script>
+</html>
